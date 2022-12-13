@@ -122,8 +122,19 @@ letter-spacing: 0.3em;
     section button:hover{
 background-color: rgba(155, 208, 49,0.8);
 font-size: 16px;
-
-    }
+ }
+ .centerdiv{
+    text-align: center;
+    color: white;
+    background-color: black;
+ }
+ .centerdiv h2{
+    text-transform: uppercase;
+    padding: 2px;
+ }
+iframe{
+    max-width: 90%;
+}
     /* big landscape tablets, laptops, and desktops */
 
 @media(min-width: 1200px){
@@ -188,6 +199,7 @@ font-size: 16px;
     justify-items: center;
     align-items: center;
 }
+
 }
 /* portrait tablet ,e-readers kindle*/
 @media(max-width:800px){
@@ -209,6 +221,12 @@ section h2{
     section h2{
         font-size: 17px;
         letter-spacing: 0.5em;
+    }
+    .main-nav{float: left;}
+
+    .main-nav li{
+        display:block;
+        margin-top: 10px;
     }
 }
 /* smartphones,portrait iphone,portrait-480*320 phones(android) */
