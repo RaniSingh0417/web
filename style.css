@@ -221,4 +221,7 @@ section h2{
         font-size: 17px;
         letter-spacing: 0.5em;
     }
+    .menu.responsive ul li{
+        margin-left: 0%!important
+    }
 }
